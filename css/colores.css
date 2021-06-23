@@ -1,0 +1,17 @@
+/*color llamado por su nombre...*/
+p {
+    font-size: 2em;
+}
+.color-violeta {
+    color: violet;
+}
+.color-rojo {
+    color: rgb(255, 000, 000);
+}
+.color-amarillo {
+    color: #ffff00;
+}
+.color-kizi {
+    color: rgb(126, 250, 232);
+
+}
