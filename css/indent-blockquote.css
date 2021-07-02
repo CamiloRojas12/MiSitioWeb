@@ -1,0 +1,27 @@
+body {
+    margin: 0 4em;
+}
+h1 {
+    text-align: center;
+}
+p {
+    font-size: 1.8em;
+    text-align: justify;
+}
+.texto-identado {
+    text-indent: 2em;
+}
+.letra-espacial {
+    font-size: 3em;
+    font-family: 'Yellowtail', cursive , serif;
+    line-height: 0.8em;
+}
+blockquote {
+    font-size: 2em;
+    font-style: italic;
+    color: red;
+    font-weight: 900;
+    font-family:'Yellowtail', cursive , serif;
+    text-align: right;
+    
+}
