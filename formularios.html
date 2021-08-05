@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="fuentes.html">Fuentes</a></li>
+        <li><a href="listas.html">Listas</a></li>
+        <li><a href="colores.html">colores</a></li>
+        <li><a href="alineacion.html">Alineacion</a></li>
+        <li><a href="spacing.html">Spacing</a></li>
+        <li><a href="indent-blockquote.html">Indent y Blockquote</a></li>
+        <li><a href="margin-border-padding.html">Margins, Borders and Padding</a></li>
+        <Li><a href="imagenes.html">Imagenes</a></Li>
+        <Li><a href="tablas.html">Tablas</a></Li>
+        <li><a href="formularios.html">Formulario</a></li>
+    </ul>
+    <h1>Citas Médicas</h1>
+    <form>
+       <fieldset>
+        <div class="box-formulario">
+           <input class="controls" type="text" name="nombres" placeholder="Ingrese su(s) nombre(s)"><br>
+           <label>Ingrese su(s) apellido(s)</label><br>
+           <input class="controls" type="text" name="apellidos"><br>
+           <label>Observaciones</label><br>
+           <textarea class="controls-check" name="observaciones" cols="40" rows="5" maxlength="200" placeholder="Max. 200 caracteres"></textarea><br><br>
+           <label>Ver días disponibles</label><br>
+           <label><input class="controls-check" type="checkbox" value="lunes">Lunes</label><br>
+           <label><input class="controls-check" type="checkbox" value="martes">Martes</label><br>
+           <label><input class="controls-check" type="checkbox" value="miercoles">Miercoles</label><br>
+           <label><input class="controls-check" type="checkbox" value="jueves">Jueves</label><br>
+           <label><input class="controls-check" type="checkbox" value="viernes">Viernes</label><br><br>
+           <label>IPS de atención</label><br>
+           <label><input class="controls-check" type="radio" name="ips">IPS Centro</label><br>
+           <label><input class="controls-check" type="radio" name="ips">IPS Agua Blanca</label><br>
+           <label><input class="controls-check" type="radio" name="ips">IPS Cálamo</label><br>
+           <label><input class="controls-check" type="radio" name="ips">IPS Solarte</label><br><br>
+           <label>Seleccione un médico</label><br>
+            <select class="controls" name="medico">
+                <option value="camilo-rojas">Camilo Rojas</option>
+                <option value="yury-calderon">Yury Calderon</option>
+                <option value="pepito-hernandez">Pepito Hernandez</option>
+                <option value="danna-zambrano">Danna Zambrano</option>
+            </select><br><br>
+            <input class="controls-button" type="submit" value="Enviar">
+        </div>
+       </fieldset>
+    </form>
+</body>
+</html>
