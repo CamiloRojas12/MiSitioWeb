@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #232526;
+}
+ul {
+    list-style: none;
+    font-size: 1.5em;
+    height: 50px;
+    text-align: center;
+}
+li {
+    display: inline-block;
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+    color: wheat;
+}
+li:hover {
+    background-color:#414345;
+}
+.main-content {
+    margin: 4em;
+}
