@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.contenedor {
+    margin: 5em auto;
+    width: 350px;
+    border: 1px solid #ddd;
+    padding: 1em;
+    box-shadow:-.5px 3px 5px rgba(0, 0, 0, 0.2) ;
+}
+.titulo {
+    text-align: center;
+    margin: .2em 0;
+    color: black;
+}
+.calendario {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.dia {
+    list-style: none;
+    text-align: right;
+    padding: .3em .5em;
+    color: black;
+}
+.nombre-dia {
+    background: #eee;
+    font-weight: 700;
+    text-align: center;
+}
+.first-dia {
+    grid-column-start: 3;
+}
+.festivo {
+    color: red;
+}

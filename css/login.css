@@ -73,3 +73,17 @@ h1 {
 .login-1 a:hover {
     color: #ffc107;
 }
+@media only screen and (max-width:800px) {
+    body {
+        background-image: url("../img/Montaña1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media only screen and (max-width:600px) {
+    body {
+        background-image: url("../img/Montaña2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
