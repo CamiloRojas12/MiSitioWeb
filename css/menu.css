@@ -16,13 +16,14 @@ nav {
     height: 100%;
     width: 200px;
     top: 0;
-    border-right: 4px solid rgba(96, 96, 96);
+    overflow: scroll;
+    background: rgba(52, 73, 94, .8 );
 }
 ul {
     list-style: none;
     position: absolute;
     top: 40px;
-    left: 30px;
+    left: 2px;
     width: 80%;
 }
 a {
@@ -34,7 +35,7 @@ a {
     padding: 20px 35px;
 }
 a:hover {
-    background: rgba(96, 96, 96);
+    background: rgb(15, 46, 77);
     color: white;
 }
 @media only screen and (max-width:800px) {
@@ -75,7 +76,7 @@ a:hover {
         width: 150px;
         position: fixed;
         height: calc(100% - 80px);
-        background: rgba(96, 96, 96,.5);
+        background: rgba(52, 73, 94, .8 );
         left: -100%;
         overflow: scroll;
     }
@@ -95,8 +96,8 @@ a:hover {
     } 
     header nav ul .children a {
         text-align: center;
-        padding-left: -10px;
-        background-color: rgba(96, 96, 96,.5);
+        padding-left: -2px;
+        background: rgb(15, 46, 77);
     }
     nav ul .icon-chevron-samll-down {
         float: right;
