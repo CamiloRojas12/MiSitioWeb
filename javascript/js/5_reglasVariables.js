@@ -10,7 +10,7 @@ var primer nombre = "";
 
 //Los nombres de las variables no deben llevar comillas
 
-var "primerNombre" = "";
+var primerNombre = "";
 
 //Las variables no pueden ser declaradas con palabras reservadas
 

@@ -2,8 +2,8 @@
 
 var nombres = "";
 var apellidos = "";
-nombres = "Kevin Stiven";
-apellidos = "Murcia Bolaños";
+nombres = "Camilo Andres";
+apellidos = "Rojas Calderon";
 
 console.log("Nombre de usuario: " + nombres + " " + apellidos);
 console.log("Nombre de usuario: " + "\n" + nombres + "\n" + apellidos);

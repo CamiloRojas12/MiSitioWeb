@@ -5,8 +5,8 @@
 var usuario1 = new Array();
     usuario1[0] = 1;
     usuario1[1] = "1007563113";
-    usuario1[2] = "Kevin";
-    usuario1[3] = "Murcia";
+    usuario1[2] = "Camilo";
+    usuario1[3] = "Rojas";
     usuario1[4] = "11-10-2011";
     usuario1[5] = "Cartagena";
     usuario1[6] = "Latam";
