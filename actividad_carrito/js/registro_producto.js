@@ -62,7 +62,5 @@ function validarFormulario() {
         return false;
     }
     return  true;
-
-
 };
 

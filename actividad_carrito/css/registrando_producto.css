@@ -12,7 +12,7 @@ h2 {
 input {
     padding: 2px;
 }
-button {
+.boton {
   width: 98%;
   border: none;
   border-radius: 5px;
